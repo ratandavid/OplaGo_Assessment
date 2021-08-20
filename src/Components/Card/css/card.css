@@ -1,0 +1,66 @@
+.card{
+    border-radius:10px;
+    border: none;
+    box-shadow: 1px 1px 1px #777777;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text{
+    color:#becad1;
+    font-size: 15px;
+}
+
+.my_icon{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.fa-youtube{
+    color:red;
+    padding: 5px 5px 0 0;
+}
+
+.fa-sticky-note{
+    color:red;
+    padding: 5px 5px 0 8px;
+}
+
+.fa-bookmark{
+    color:#f0ae5c;
+    padding: 5px 5px 0 5px;
+}
+
+.two-icons_margin{
+    margin-top: 10px;
+}
+
+.blue-gradient{
+    background-image: linear-gradient(to right, #597ef5 , #2030be);
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    color:#fff;
+}
+
+.cardheading i{
+    padding: 10px;
+    padding-right: 10px;
+}
+
+
+.green-gradient{
+    background-image: linear-gradient(to right, #97b577 , #469a89);
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    color:#fff;   
+}
